@@ -1,14 +1,14 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 setup(
     name="OmniSight",
     version="1.0.0",
-    author="YourName",
+    author="Ilyas-The-Incredible-Dude",
     description="A lightweight real-time micro-telemetry flight recorder and behavioral monitoring framework.",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="MET_LE_LIEN_DE_TON_GITHUB_ICI",
-    packages=find_packages(),
+    url="https://github.com",
+    py_modules=["OmniSight"], # Indique à Python que le script est directement à la racine
     install_requires=[
         "PyQt6",
         "watchdog",
@@ -16,7 +16,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "omnisight=omnisight.app:main", # Permet de lancer l'app juste en tapant "omnisight" dans un terminal
+            "omnisight=OmnSight:TelemetryPanel", # Correction du point d'entrée pour lancer la fenêtre
         ],
     },
     classifiers=[
