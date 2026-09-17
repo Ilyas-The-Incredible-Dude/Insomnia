@@ -1,6 +1,6 @@
-OmniSight: Micro-Telemetry Flight Recorder
+Insomnia: Micro-Telemetry Flight Recorder
 
-OmniSight is an Ultra lightweight, asynchronous desktop framework written in Python and PyQt6. It functions like an airplane's black box for your operating system, capturing and aggregating micro-events (file modifications, renames, deletions, and process spawns) in real-time across your entire user profile.
+Insomnia is an Ultra lightweight, asynchronous desktop framework written in Python and PyQt6. It functions like an airplane's black box for your operating system, capturing and aggregating micro-events (file modifications, renames, deletions, and process spawns) in real-time across your entire user profile.
 
 Unlike traditional signature-based antivirus tools, SystemPulse focuses strictly on pure behavioral and filesystem telemetry visibility.
 
@@ -29,10 +29,10 @@ The project is architected into three main modules:
 
 ## Getting Started
 
-1. Place the 3 structural Python blocks sequentially into a single file named `OmniSight.py`.
+1. Place the 3 structural Python blocks sequentially into a single file named `Insomnia.py`.
 2. Open a terminal and run the main entry point:
    ```bash
-   OmniSight.py
+   Insomnia.py
    ```
 3. Interact with your operating system (create a file on your Desktop, launch a terminal, or edit a configuration script) to view the telemetry grid populate instantly.
 
