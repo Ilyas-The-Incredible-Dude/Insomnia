@@ -51,3 +51,9 @@ Exported audit sheets map to the following structural matrix:
 ## License
 
 MIT - Free for open-source modification and individual security engineering tooling.
+
+## Note
+
+ALWAYS remember that this is still under developpement, a proper way of gathering the data and a better panel will come soon.
+
+Contact mailto:ilyas.desk.certified@gmail.com for bug reports.
